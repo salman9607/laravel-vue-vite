@@ -4,13 +4,14 @@ import '../css/app.css';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 
-import HomeIndex from './components/Pinia.vue'
+import App from './App.vue'
 
 
 
-const app = createApp(HomeIndex);
+const pinia = createPinia()
+const app = createApp(App);
 
 // app.use(router)
-app.use(createPinia)
+app.use(pinia)
 app.mount('#app')
  

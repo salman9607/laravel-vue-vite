@@ -1,7 +1,5 @@
 <script type="application/javascript">
-import { useCounterStore } from "../composables/Counter"
 
-useCounterStore();
 
 
 export default {
